@@ -1,0 +1,11 @@
+@'
+backups/
+*.sql.gz
+*.bak
+*.log
+.env
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+'@ | Set-Content ".gitignore"
